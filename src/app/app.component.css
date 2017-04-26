@@ -1,0 +1,139 @@
+@keyframes test{
+	from{
+		background-color: black;
+	}
+	to{
+		background-color: white;
+	}
+}
+
+@keyframes kk-slide-up{
+	from{
+		top: 500px;
+	}
+	to{
+		top: 0px;
+	}
+}
+@keyframes kk-slide-down{
+	from{
+		top: -500px;
+	}
+	to{
+		top: 0px;
+	}
+}
+@keyframes kk-slide-left{
+	from{
+		left: -700px;
+
+	}
+	to{
+		left: 0px;
+	}
+}
+
+#container{
+	padding:3vw 10vw 5vw 7vw;
+	text-align: center;
+	height:300vh;
+	z-index: 1;
+	/*background-color: grey;*/
+	/*background-color: black;*/
+}
+
+#header-dropdown{
+	display:inline-block;
+	animation-name: kk-slide-down;
+	animation-duration: 1.5s;
+	height:10vh;
+	text-align:right;
+	
+
+}
+
+#header-dropdown button{
+	color:#00961f;
+	border-color: #00961f;
+	/*background-color: #00961f;*/
+	border-style: solid none solid none;
+	border-radius: 0;
+	font-size:125%;
+
+}
+
+#header-dropdown button:hover{
+	background-color: #00961f;
+	color:white;
+}
+.btn-outline-primary:active, .btn-outline-primary.active, .show > .btn-outline-primary.dropdown-toggle{
+	color: #00961f;
+	background-color:white;
+}
+
+#header-dropdown div{
+
+	background-color: white;
+	/*border-style: none solid none solid;*/
+	border-radius: 0;
+	border-style: none;
+}
+#second.row{
+	margin-top: 5vh;
+	height: 10vh;
+	display:inline-block;
+}
+
+#second h3{
+	font-size:120%;
+}
+h1 {
+  color: #00961f;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 300%;
+  animation-name: kk-slide-down;
+  animation-duration: 1s;
+  animation-delay: 0.25s;
+  margin: 0 auto;
+  position:relative;
+  /*top:-500px;*/
+  text-shadow: #040404 -2px 2px;
+  text-align:left;
+  width:90%;
+}
+
+img{
+	width:90%;
+	animation-name: kk-slide-down;
+	animation-duration: 1s;
+	position: relative;
+	border-radius:15vh;
+	border: 0.5vh solid grey;
+
+}
+
+/*#container div{
+	animation-name: slide-up;
+	animation-duration: 1.5s;
+	position: relative;
+}*/
+
+#second-row{
+	/*display:hidden;*/
+	display:inline-block;
+	width:100%;
+	height:30vh;
+
+}
+#scroll-animation{
+	animation-name: kk-slide-left;
+	animation-duration: 2s;
+	position: relative;
+	animation-play-state: paused;
+}
+
+
+/*#trigger:hover{
+	display:inline-block;
+	background-color: green;
+}*/

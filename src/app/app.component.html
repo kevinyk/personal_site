@@ -1,3 +1,26 @@
-<h1>
-  {{title}}
-</h1>
+<div id="container" myDirective>
+	<div id="header" class="row">
+		<h1 class="col col-md-8">
+		  {{title}}
+		</h1>
+		<div class="col col-md-4" id="header-dropdown">
+			<div ngbDropdown class="d-inline-block">
+		      <button class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>About Me</button>
+				<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownBasic1" id="main-menu">
+					<button class="dropdown-item">Action - 1</button>
+					<button class="dropdown-item">Another Action</button>
+					<button class="dropdown-item">Something else is here</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<img src="../assets/images/sk-bg.jpeg">
+	<div id="second-row" class="row">
+		<!-- <h3 class="col">Nothing exceeds like excess</h3> -->
+		<p>Testing</p>
+	</div>
+	<div class="row" id="scroll-animation-test">
+		<h4 class="col" id="scroll-animation">Is this easy mode?</h4>
+	</div>
+</div>
+
